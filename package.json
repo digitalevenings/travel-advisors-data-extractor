@@ -1,0 +1,41 @@
+{
+  "name": "travel-advisors-data-extractor",
+  "version": "1.0.0",
+  "description": "High-performance Node.js scraper for extracting travel advisor profiles with proxy rotation, caching, and streaming output",
+  "main": "scrape-full-advisors.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scrape-full-advisors.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/travel-advisors-data-extractor.git"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraping",
+    "data-extraction",
+    "proxy-rotation",
+    "travel",
+    "advisors",
+    "ndjson",
+    "streaming"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/travel-advisors-data-extractor/issues"
+  },
+  "homepage": "https://github.com/yourusername/travel-advisors-data-extractor#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.5.0",
+    "https-proxy-agent": "^7.0.6",
+    "openai": "^5.1.1"
+  }
+}
